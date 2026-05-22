@@ -1,0 +1,160 @@
+* {
+  margin: 0 0;
+  padding: 0 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+  padding: 1%;
+  width: 80%;
+  margin: 0 auto;
+  font-size: large;
+  
+ 
+}
+
+
+
+.text-center {
+  text-align: center;
+}
+
+.link-no-deco {
+  text-decoration: none;
+}
+
+.clearfix {
+  float: none;
+  clear: both;
+}
+
+.tbl-full {
+  width: 100%;
+}
+
+.tbl-30 {
+  width: 40%;
+  font-size: 20px;
+ 
+}
+
+table tr th {
+  border-bottom: 1px solid black;
+  padding: 1%;
+  text-align: left;
+  font-size: 20px;
+}
+table tr td {
+  padding: 2%;
+}
+
+table tr td input{
+  font-size: 20px;
+}
+
+.btn-primary {
+  background-color: #2ad162;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 0.5%;
+}
+.btn-primary:hover {
+  background-color: #7bed9f;
+  padding: 0.5%;
+}
+
+.btn-secondary {
+  background-color: #29aae6;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 0.5%;
+  border: none;
+}
+.btn-secondary:hover {
+  background-color: #7bed9f;
+  padding: 0.5%;
+}
+
+.btn-danger {
+  background-color: #ff6b81;
+  color: white;
+  font-weight: bold;
+  padding: 0.5%;
+}
+.btn-danger:hover {
+  background-color: #ff4757;
+  padding: 0.5%;
+}
+
+.success {
+  color: #2ed573;
+  font-weight: bold;
+}
+.failed {
+  color: #ff4757;
+  font-weight: bold;
+}
+
+/* css for menu  */
+.menu {
+  border-bottom: 1px solid;
+}
+.menu ul {
+  list-style-type: none;
+}
+
+.menu ul li {
+  display: inline;
+  padding: 1%;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.menu a:hover {
+  color: darkgrey;
+}
+
+/* css for main content */
+.main-content {
+  padding: 5% 5%;
+  margin: 0%;
+  background-color: #ffffff;
+  
+}
+
+.col-4 {
+  width: 18%;
+  background-color: rgb(92, 87, 87,0.5);
+  margin: 1%;
+  padding: 2%;
+  float: left;
+}
+
+/* CSS for login */
+.login {
+  padding: 2%;
+  width: 20%;
+  border: 1px solid black;
+  margin: 5% auto;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+}
+
+#logout {
+  text-align: right;
+  float: right;
+}
+
+#greeting {
+  float: left;
+  font-family: "Protest Strike", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: larger;
+}

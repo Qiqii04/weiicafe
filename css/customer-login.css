@@ -1,0 +1,33 @@
+.customer-dropdown {
+    position: relative; /* Position the dropdown menu relative to its parent */
+    display: inline-block; /* Allow inline display for flexibility */
+  }
+  
+  .customer-name {
+    cursor: pointer; /* Indicate clickable behavior for the customer name */
+  }
+  
+  .dropdown-menu {
+    display: none; /* Hide the dropdown menu by default */
+    position: absolute; /* Position the menu absolutely relative to its parent */
+    top: 100%; /* Position it below the customer name */
+    left: 0;
+    background-color: #fff; /* Set a background color */
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+    border-radius: 5px; /* Add a subtle border radius for aesthetics */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a light shadow */
+  }
+  
+  .customer-dropdown:hover .dropdown-menu {
+    display: block; /* Show the dropdown menu on hover */
+  }
+  
+  .dropdown-menu li {
+    padding: 5px 10px; /* Add some padding for readability */
+  }
+  
+  .dropdown-menu li a {
+    text-decoration: none; /* Remove default link underlines */
+    color: #333; /* Set link text color */
+  }

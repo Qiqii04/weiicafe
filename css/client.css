@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+}
+/* .navbar {
+    border-bottom: 2px solid black;
+} */
+.navbar-nav a {
+   font-weight: 700;
+}
+.nav-link:hover{
+    background-color: #EEEEEE;
+    color: black;
+}
+
+/* main section */
+/* cover image */
+
+#coverCarousel .section-padding{
+    padding: 100px 0;
+}
+#coverCarousel .carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+#coverCarousel .carousel-caption{
+    bottom: 220px;
+    z-index: 2;
+}
+#coverCarousel .carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+#coverCarousel .carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+}
+#coverCarousel .carousel-inner::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+#coverCarousel .navbar-nav a{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+#coverCarousel .w-100{
+    height: 100vh
+}
+@media only screen and (min-width:768px) and (max-width: 991px){
+    .carousel-caption{
+        bottom: 370px;
+
+    }
+    .carousel-caption p{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:767px){
+    .navbar-nav{
+        text-align: center;
+    }
+    .carousel-caption{
+        bottom: 100px;
+    }
+    .carousel-caption h5{
+       font-size: 17px;
+    }
+    .carousel-caption a{
+        padding: 10px 15px;
+    }
+    .carousel-caption p{
+        width: 100%;
+        line-height: 1.6;
+        font-size: 12px;
+    }
+}
+
+/* promos and announcement section */
+.announcement h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+}
+
+/* mini carousel with links to menu*/
+#miniCarousel {
+    max-width: 75%;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    border: 2px solid #000; /* Adjust border color and width as needed */
+    border-radius: 10px; /* Optional: Add border-radius for rounded corners */
+    overflow: hidden; /* Ensure the border is not affected by the carousel's shadow */
+}
+
+.main h1{
+    font-size: 3rem;
+    font-weight: 700;
+    color: black;
+    text-align: left;
+}
+.main h2{
+    font-weight: 700;
+    text-align: left;
+}
+.main p{
+    text-align: left;
+}
+
+/* review section */
+.review h1{
+    font-weight: 700;
+    color: black;
+    text-align: center;
+}
+.review h3{
+    font-weight: 700;
+    text-align: center;
+}
+
+/* CSS for Social */
+.social ul {
+    list-style-type: none;
+  }
+  .social ul li {
+    display: inline;
+    padding: 1%;
+  }
+  
